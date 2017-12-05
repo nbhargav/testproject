@@ -1,2 +1,3 @@
-echo "second branch"
-echo "cd .."
+echo "hello world"
+echo "pwd"
+
