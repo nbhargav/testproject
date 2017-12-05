@@ -1,2 +1,13 @@
-echo "I am the master"
-echo "cd .."
+pipeline {
+    agent any 
+
+  stages {
+        stage('Build'){
+            steps {
+                sh 'pwd'
+                
+            }
+        }
+  
+    }
+}
