@@ -1,3 +1,13 @@
-echo "hello world"
-echo "pwd"
+pipeline {
+    agent any 
 
+  stages {
+        stage('Build'){
+            steps {
+                sh 'echo "hello"'
+                
+            }
+        }
+  
+    }
+}
